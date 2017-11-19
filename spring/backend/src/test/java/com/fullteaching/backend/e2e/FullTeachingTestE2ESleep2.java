@@ -154,6 +154,8 @@ public class FullTeachingTestE2ESleep2 {
 		
 		checkVideoPlaying(user, user.getDriver().findElement(By.cssSelector(("div.participant video"))),
 				"div.participant");
+		
+		wait(5000);
 
 	}
 
